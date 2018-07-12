@@ -16,7 +16,7 @@ At a high-level, you have to do three things:
 
 The following steps walk you through tasks in detail:
 
-###a.	Update the Kafka Producer implementation code
+### a.	Update the Kafka Producer implementation code
 1.	Add a String variable to your data object (message) that will be published to the Kafka Topic to store the trace ID and segment ID.
 
 ```java
@@ -69,7 +69,7 @@ public String getTraceInformation(){
 ```
 4.	These data can be published to the Kafka Topic from the Producer to be retrieved from the Consumer.
 
-###b.	Update the Kafka Consumer implementation code
+### b.	Update the Kafka Consumer implementation code
 Because the same request can’t both publish the data to the Kafka Topic and retrieve the data from it, the Kafka Consumer will be a separate segment in the X-Ray trace.
 
 1.	Create a new X-Ray segment on your Kafka Consumer.
