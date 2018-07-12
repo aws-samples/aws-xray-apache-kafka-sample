@@ -1,6 +1,6 @@
 ## AWS Xray Apache Kafka Sample
 
-End-to-end performance of streaming applications built on Apache Kafka using AWS X-Ray.
+Trace end-to-end performance of messaging applications built on Apache Kafka using AWS X-Ray.
 
 ## License Summary
 
