@@ -1,4 +1,4 @@
-## AWS Xray Apache Kafka Sample
+## AWS X-Ray Apache Kafka Sample
 
 Trace end-to-end performance of messaging applications built on Apache Kafka using AWS X-Ray.
 
